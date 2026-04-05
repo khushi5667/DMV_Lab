@@ -19,5 +19,4 @@ def update(frame):
 
 # Create animation
 ani = FuncAnimation(fig, update, frames=range(11), interval=200, blit=True)
-
 plt.show()
